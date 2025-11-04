@@ -1,39 +1,173 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #f5f5f5;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        p {
-            line-height: 1.6;
-            color: #34495e;
-        }
-    </style>
+    <title>Главная cтраница</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>🎉 Мой сайт работает!</h1>
-        <p>Это настоящий веб-сайт, а не просто страница репозитория.</p>
-        <p>Если вы видите этот текст - GitHub Pages настроен правильно!</p>
-        <p>Теперь вы можете добавить любой HTML, CSS и JavaScript.</p>
-    </div>
+    <header>
+        <img src="Авиакомпания/media/logo.png" class="logo" alt="logo">
+        <nav>
+            <a href="">Акции</a>
+            <a href="">Поиск</a>
+            <a href="">Регистрация на рейс</a>
+            <a href="">Личный кабинет</a>
+        </nav>
+    </header>
+    <main>
+        <div class="absolute">
+            <img class="absolute1" src="Авиакомпания/media/images/clouds/cloud_064.png" alt="">
+            <img class="absolute2" src="Авиакомпания/media/images/clouds/cloud_054.png" alt="">
+            <img class="absolute3" src="Авиакомпания/media/images/clouds/cloud_054.png" alt="">
+            <img class="absolute4" src="Авиакомпания/media/images/clouds/cloud_064.png" alt="">
+            <img class="absolute5" src="Авиакомпания/media/images/clouds/cloud_054.png" alt="">
+            <img class="absolute6" src="Авиакомпания/media/images/clouds/cloud_054.png" alt="">
+            <img class="absolute7" src="img/41822-Photoroom.png" alt="">
+            <img class="absolute8" src="Авиакомпания/media/images/clouds/cloud_054.png" alt="">
+            <img class="absolute9" src="Авиакомпания/media/images/clouds/cloud_064.png" alt="">
+            
+        </div>
+        <section class="osnova">
+            <h2>Принцип накопления бронирований</h2>
+            <div style="display: flex; gap: 70px;">
+                <form action="">
+                    <div class="vertical">
+                        <label for="">Выбор условной даты</label>
+                        <p>Пользователь выбирает удобную дату вылета. Различные даты влияют на итоговую стоимость
+                            билетов и вероятность успеха бронирования.</p>
+                        <input type="date">
+                    </div>
+                </form>
+                <form action="">
+                    <div class="vertical">
+                        <label for="">Ввод числа бронирований</label>
+                        <p>Количество совершаемых бронирований оказывает прямое влияние на конечную цену. Больше
+                            бронирований — меньшая цена следующего заказа.</p>
+                        <input type="number" min="1" max="60" placeholder="Введите число">
+                    </div>
+                </form>
+                <div class="vertical">
+                    <h4>Результат</h4>
+                    <p>Количество совершаемых бронирований оказывает прямое влияние на конечную цену. Больше
+                        бронирований — меньшая цена следующего заказа.</p>
+                    <div class="gorizontal">
+                        <h5>Демонстрация изменения стоимости:</h5>
+                        <h4>1990руб/чел</h4>
+                    </div>
+                    <div class="gorizontal">
+                        <h5>Вероятности вылета:</h5>
+                        <h4>40%</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="osnova">
+            <h2>Почему нам стоит доверять</h2>
+            <div class="container-kartochki">
+                <div class="osnova2">
+                    <img src="img/marker.svg" alt="">
+                    <h4>50 лет</h4>
+                    <h5>Стажа работы нашей компании Стажа работы нашей компании</h5>
+                </div>
+                <div class="osnova2">
+                    <img src="img/marker.svg" alt="">
+                    <h4>50 лет</h4>
+                    <h5>Стажа работы нашей компании Стажа работы нашей компании</h5>
+                </div>
+                <div class="osnova2">
+                    <img src="img/marker.svg" alt="">
+                    <h4>50 лет</h4>
+                    <h5>Стажа работы нашей компании Стажа работы нашей компании</h5>
+                </div>
+            </div>
+        </section>
+        <section class="osnova">
+            <h2>Поиск</h2>
+            <form action="" class="form" style="align-items: end;">
+                <div>
+                    <label for="">Откуда</label>
+                    <input type="search" placeholder="Москва, Шереметьево">
+                </div>
+                <div>
+                    <label for="">Куда</label>
+                    <input type="search" placeholder="Москва, Шереметьево">
+                </div>
+                <div>
+                    <label for="">Туда</label>
+                    <input type="date" placeholder="Во сколько туда будете вылетать">
+                </div>
+                <div>
+                    <label for="">Обратно</label>
+                    <input type="date" placeholder="Во сколько обратно будете вылетать">
+                </div>
+                <div>
+                    <label for="">Количество пассажиров</label>
+                    <input type="number" placeholder="Сколько вас летит?" min="1" max="8">
+                </div>
+                <input type="button" value="Найти">
+            </form>
+        </section>
+        <section class="osnova">
+            <h2>Акции</h2>
+            <div class="container-kartochki">
+                <div class="osnova3">
+                    <img src="img/istockphoto-155439315-612x612.jpg" alt="">
+                    <h3>Летайте чаще!</h3>
+                    <p>Купив билет на два направления одновременно, получите скидку 10% на обратный рейс. Предложение
+                        действительно при покупке билетов минимум за две недели до запланированного путешествия.</p>
+                    <button>Записаться</button>
+                </div>
+                <div class="osnova3">
+                    <img src="img/istockphoto-155439315-612x612.jpg" alt="">
+                    <h3>Семьи вместе!</h3>
+                    <p>Семейные путешествия стали доступнее. Для семей с детьми скидка 15% на билеты детей младше 12
+                        лет. Скидка действует при оформлении семейного билета одним взрослым членом семьи.</p>
+                    <button>Записаться</button>
+                </div>
+                <div class="osnova3">
+                    <img src="img/istockphoto-155439315-612x612.jpg" alt="">
+                    <h3>Путешествуй легко!</h3>
+                    <p>Акция позволяет оформить возврат авиабилета всего за символический сбор 5%, если полет отменяется
+                        авиакомпанией менее чем за сутки до вылета.</p>
+                    <button>Записаться</button>
+                </div>
+            </div>
+        </section>
+        <section class="osnova email">
+            <h2>Подпишитесь, чтобы узнать быстрее и больше!</h2>
+            <form action="" style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; align-items: center; width: 100%; gap: 20px;">
+                    <input type="email" placeholder="example@mail.ru">
+                    <div class="checkbox">
+                        <input type="checkbox" name="l1" id="l1">
+                        <label for="l1">Я согласен(а) на обработку моих персональных данных</label>
+                    </div>
+                </div>
+                <button>Подписаться</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="">Телефон 8 (800) 100-10-10 </a>
+        <nav>
+            <a href="">Главная</a>
+            <a href="">Вход</a>
+            <a href="">Регистрация</a>
+            <a href="">Контакты</a>
+            <a href="">Новости</a>
+            <a href="">Вернуться</a>
+            <a href="">Форма обратной связи</a>
+        </nav>
+    </footer>
 </body>
+
 </html>
