@@ -624,4 +624,58 @@ footer a:hover {
         top: 95%;
     }
 
+
+    h1 {
+        font-size: 32px;
+        font-weight: 1000;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 900;
+        color: var(--accent-color);
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h6 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    label {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    input {
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+
+    button {
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+
 }
