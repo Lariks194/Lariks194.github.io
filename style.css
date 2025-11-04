@@ -643,28 +643,28 @@ footer a:hover {
     }
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 900;
         color: var(--accent-color);
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 800;
     }
 
     h4 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
     }
 
     h5 {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
     }
 
     h6 {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 700;
     }
 
@@ -674,7 +674,7 @@ footer a:hover {
     }
 
     label {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
     }
 
@@ -687,10 +687,12 @@ footer a:hover {
     button {
         font-size: 16px;
         font-weight: 500;
+        
 
     }
 
 }
+
 
 
 
