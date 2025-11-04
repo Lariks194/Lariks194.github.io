@@ -620,8 +620,20 @@ footer a:hover {
         width: 100%;
     }
 
-    .absolute7{
+    .absolute9 {
+        left: 100px;
+        position: absolute;
+        top: 96%;
+        right: 20px;
+        object-fit: cover;
+        scale: 2;
+
+    }
+
+    .absolute7 {
         top: 95%;
+        scale: 0.9;
+        right: -40px;
     }
 
 
@@ -679,4 +691,5 @@ footer a:hover {
     }
 
 }
+
 
