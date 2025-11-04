@@ -692,7 +692,14 @@ footer a:hover {
     font-size: 14px;
     }
 
+    footer a {
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
 }
+
 
 
 
